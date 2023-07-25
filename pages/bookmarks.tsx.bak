@@ -78,7 +78,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
 
   const tags = [
     'all',
-    ...Array.from(new Set(bookmarks.flatMap(({ tags }) => tags))),
+    ...Array.from(new Set(bookmarks?.flatMap?.(({ tags }) => tags))),
   ]
 
   const props: Props = { bookmarks, tags }

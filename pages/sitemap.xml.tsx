@@ -18,12 +18,12 @@ export async function getServerSideProps({ res }) {
       'about',
       'projects',
       'posts',
-      'stack',
-      'gear',
-      'reading',
-      'bookmarks',
-      'newsletters',
-      'podcasts'
+      // 'stack',
+      // 'gear',
+      // 'reading',
+      // 'bookmarks',
+      // 'newsletters',
+      // 'podcasts'
     ]
   ]
 

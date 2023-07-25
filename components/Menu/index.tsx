@@ -130,7 +130,7 @@ export default function Menu() {
             label="Posts"
             shortcut="3"
           />
-          <Divider>Resources</Divider>
+          {/* <Divider>Resources</Divider>
           <NavLink
             svg={<Stack />}
             href="/stack"
@@ -166,7 +166,7 @@ export default function Menu() {
             href="/podcasts"
             label="Podcasts"
             shortcut="9"
-          />
+          /> */}
           <Divider>Social</Divider>
           <NavLink
             svg={<Twitter />}

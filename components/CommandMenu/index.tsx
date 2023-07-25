@@ -109,7 +109,7 @@ export default function CommandMenu({ open, setOpen}) {
             <Posts />
             Posts
           </Item>
-          <Item
+          {/* <Item
             shortcut="4"
             onSelect={() => {
               router.push("/stack")
@@ -168,7 +168,7 @@ export default function CommandMenu({ open, setOpen}) {
           >
             <Podcasts />
             Podcasts
-          </Item>
+          </Item> */}
         </Command.Group>
         <Command.Group heading="Appearance">
           <Command.Item onSelect={handleSetTheme} value="system">
