@@ -16,7 +16,7 @@ export const fetchBookmarks = async (page = 0): Promise<Bookmark[]> => {
   const data = await req.json()
 
 
-  return data?.items.map((item: Bookmark) => ({
+  return data?.items?.map?.((item: Bookmark) => ({
     _id: item._id,
     title: item.title,
     link: item.link,

@@ -15,8 +15,8 @@ export default async function handler(
   )
 
   const data = await result.json()
-  const pageviews = data.results.pageviews.value
-  const visitors = data.results.visitors.value
+  const pageviews = data.results?.pageviews.value
+  const visitors = data.results?.visitors.value
 
   if (!result.ok) {
     return res

@@ -1,7 +1,10 @@
 import React from "react"
 import { useRouter } from "next/router"
+// @ts-ignore
 import { Command } from "cmdk"
+// @ts-ignore
 import tinykeys from "tinykeys"
+// @ts-ignore
 import useOnClickOutside from "use-onclickoutside"
 import { useTheme } from "next-themes"
 import Home from "@ui/Icons/home"
@@ -27,14 +30,14 @@ export default function CommandMenu({ open, setOpen}) {
 
   // Toggle the menu when ⌘K is pressed
   React.useEffect(() => {
-    let unsubscribe = tinykeys(window, {
-      "$mod+KeyK": () => {
-        setOpen((open) => !open)
-      },
-    })
-    return () => {
-      unsubscribe()
-    }
+    // let unsubscribe = tinykeys(window, {
+    //   "$mod+KeyK": () => {
+    //     setOpen((open) => !open)
+    //   },
+    // })
+    // return () => {
+    //   unsubscribe()
+    // }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 

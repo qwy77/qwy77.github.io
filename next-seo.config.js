@@ -1,20 +1,20 @@
 /* eslint-disable import/no-anonymous-default-export */
 
-const title = 'Ding'
+const title = 'YWQ'
 const description = 'Product designer & design-focused engineer.'
 const siteUrl = 'https://ding.one'
 
 export default {
   title: title,
-  titleTemplate: "Ding – %s",
-  defaultTitle: "Ding",
+  titleTemplate: "YWQ – %s",
+  defaultTitle: "YWQ",
   description: description,
   canonical: "https://ding.one",
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: siteUrl,
-    site_name: 'Ding',
+    site_name: 'YWQ',
     title,
     description: description,
     width: 1920,

@@ -11,7 +11,7 @@ import { Albert_Sans } from '@next/font/google'
 import { globalStyles } from '@styles/global'
 import '@styles/reset.css'
 
-const Albert = Albert_Sans()
+const Albert = Albert_Sans({ subsets: ['latin', 'latin-ext'] })
 
 export default function App({ Component, pageProps }: AppProps) {
   globalStyles()
