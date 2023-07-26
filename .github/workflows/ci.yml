@@ -20,8 +20,8 @@ jobs:
       run: yarn
     - name: 打包 🏗️
       run: |
-        npm run build
-        npm run export
+        yarn build
+        yarn export
         mkdir out
         touch out/.nojekyll
     - name: 部署 🚀
