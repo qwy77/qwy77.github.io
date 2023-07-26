@@ -15,14 +15,7 @@ const withPWA = require('next-pwa')({
 module.exports = withPlausibleProxy()(
   withPWA({
     images: {
-      domains: [
-        "s2.googleusercontent.com",
-        "s3.us-west-2.amazonaws.com",
-        "amazonaws.com",
-        "secure.notion-static.com",
-        "i.scdn.co",
-        "www.google.com"
-      ],
+      unoptimized: true
     },
     reactStrictMode: true,
     staticPageGenerationTimeout: 100,
