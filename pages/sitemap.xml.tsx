@@ -11,7 +11,7 @@ const createSitemap = (slugs) => `<?xml version="1.0" encoding="UTF-8"?>
     .join('')}
     </urlset>
 `
-export async function getServerSideProps({ res }) {
+export async function getStaticProps({ res }) {
   const allPages = [
     ...[
       '',
