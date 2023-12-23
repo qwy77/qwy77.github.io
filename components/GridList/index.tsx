@@ -130,7 +130,7 @@ export default function GridList() {
       <Item type="me">
         <Top>
           <div className={util.roundIcon()}>
-            <Logo />
+            <Logo style={{ borderRadius: 14 }} />
           </div>
         </Top>
         <Bio>
@@ -138,7 +138,7 @@ export default function GridList() {
             {/* <span className="material-symbols-outlined">
               waving_hand
             </span>{"  "} */}
-            A product designer & design-focused engineer with 10+ years of experience in digital design, front-end development and team management.
+            网页设计、app、logo 、3d、全案设计、线下活动、其他设计
           </p>
         </Bio>
       </Item>

@@ -99,7 +99,7 @@ export default function Menu() {
 
   CMDK()
 
-  const [open, setOpen] = React.useState(false)
+  // const [open, setOpen] = React.useState(false)
 
   return (
     <Container>
@@ -118,7 +118,7 @@ export default function Menu() {
             label="About"
             shortcut="1"
           />
-          <NavLink
+          {/* <NavLink
             svg={<Projects />}
             href="/projects"
             label="Projects"
@@ -129,7 +129,7 @@ export default function Menu() {
             href="/posts"
             label="Posts"
             shortcut="3"
-          />
+          /> */}
           {/* <Divider>Resources</Divider>
           <NavLink
             svg={<Stack />}
@@ -180,7 +180,7 @@ export default function Menu() {
             label="Instagram"
             external
           />
-          <NavLink
+          {/* <NavLink
             svg={<Figma />}
             href="https://figma.com/@ding"
             label="Figma"
@@ -191,14 +191,14 @@ export default function Menu() {
             href="https://Github.com/dingyi"
             label="Github"
             external
-          />
+          /> */}
         </Nav>
       </Main>
       <Footer>
         <LocalTime />
-        <CommandMenuButton setOpen={setOpen} />
+        {/* <CommandMenuButton setOpen={setOpen} /> */}
       </Footer>
-      <CommandMenu open={open} setOpen={setOpen} />
+      {/* <CommandMenu open={open} setOpen={setOpen} /> */}
     </Container>
   )
 }
