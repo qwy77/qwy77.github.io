@@ -64,7 +64,7 @@ export const Toggle = styled('label', {
         position: 'absolute',
         top: '50%',
         left: '50%',
-        boxShadow: '0 -23px 0 $mint, 0 23px 0 $mint, 23px 0 0 $mint, -23px 0 0 $mint, 15px 15px 0 $mint, -15px 15px 0 $mint, 15px -15px 0 $mint, -15px -15px 0 $mint',
+        boxShadow: '0 -23px 0 $purple, 0 23px 0 $purple, 23px 0 0 $purple, -23px 0 0 $purple, 15px 15px 0 $purple, -15px 15px 0 $purple, 15px -15px 0 $purple, -15px -15px 0 $purple',
         transform: 'scale(0)',
         transition: 'all 0.3s ease'
       }
@@ -74,7 +74,7 @@ export const Toggle = styled('label', {
       transform: 'scale(0.5) rotate(0deg)',
       transition: 'transform 0.3s ease 0.1s, box-shadow 0.2s ease 0s',
       '&:before': {
-        background: '$mint10',
+        background: '$purple10',
         transition: 'background-color 0.3s ease 0.1s',
       },
       '&:after': {

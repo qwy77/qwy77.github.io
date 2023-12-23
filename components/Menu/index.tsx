@@ -26,7 +26,7 @@ const Container = styled('div', {
   padding: '0.15rem',
   width: '100%',
   margin: 0,
-  backgroundColor: '$mint1',
+  backgroundColor: '$purple1',
   display: 'flex',
   flexDirection: 'row',
   justifyContent: 'flex-start',

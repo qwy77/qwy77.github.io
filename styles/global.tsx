@@ -45,16 +45,16 @@ export const globalStyles = globalCss({
   },
 
   a: {
-    color: '$mint12',
+    color: '$purple12',
     textDecoration: 'none',
     '&:hover': {
       transition: 'all 0.2s ease',
-      color: '$mint12',
+      color: '$purple12',
     },
   },
 
   'h1, h2, h3, h4, h5': {
-    color: '$mint12',
+    color: '$purple12',
   },
 
   h1: {

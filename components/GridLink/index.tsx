@@ -38,10 +38,10 @@ const Item = styled('a', {
     transition: 'all 0.6s ease-out 0s',
   },
   '&:hover svg': {
-    fill: '$mint4',
+    fill: '$purple4',
   },
   '&:hover p': {
-    color: '$mint4',
+    color: '$purple4',
   },
 })
 

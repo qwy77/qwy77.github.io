@@ -44,7 +44,7 @@ export const CMDK = globalCss({
     borderRadius: "$4",
     overflow: "hidden",
     //padding: "$2",
-    boxShadow: "inset 0 1px 0 var(--shadows-mint4), 0.5px 0.7px 1px hsl(0deg 0% 0% / 12%), 1.5px 2.3px 3.3px -0.7px hsl(166deg 100% 2% / 12%), 3.5px 5.3px 7.6px -1.3px hsl(173deg 100% 2% / 12%), 8.2px 12.4px 17.8px -2px hsl(154deg 100% 2% / 10%)",
+    boxShadow: "inset 0 1px 0 var(--shadows-purple4), 0.5px 0.7px 1px hsl(0deg 0% 0% / 12%), 1.5px 2.3px 3.3px -0.7px hsl(166deg 100% 2% / 12%), 3.5px 5.3px 7.6px -1.3px hsl(173deg 100% 2% / 12%), 8.2px 12.4px 17.8px -2px hsl(154deg 100% 2% / 10%)",
 
     '&.light': {
       background: "linear-gradient(136.61deg, rgb(39, 40, 43) 13.72%, rgb(45, 46, 49) 74.3%)",
@@ -79,7 +79,7 @@ export const CMDK = globalCss({
     transform: "translateY(-50%)",
     right: 24,
     fontSize: "$2",
-    color: "$mint9",
+    color: "$purple9",
     cursor: "pointer",
     background: "none",
   },
