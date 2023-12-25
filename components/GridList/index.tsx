@@ -42,18 +42,18 @@ const Item = styled('div', {
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'space-between',
-  backgroundColor: 'rgb(1 24 22 / 80%)',
-  boxShadow: 'inset 0 1px 0 var(--shadows-mint4), 0.5px 0.7px 1px hsl(0deg 0% 0% / 12%), 1.5px 2.3px 3.3px -0.7px hsl(166deg 100% 2% / 12%), 3.5px 5.3px 7.6px -1.3px hsl(173deg 100% 2% / 12%), 8.2px 12.4px 17.8px -2px hsl(154deg 100% 2% / 10%)',
+  backgroundColor: 'rgb(5 1 24 / 80%)',
+  boxShadow: 'inset 0 1px 0 var(--shadows-purple4), 0.5px 0.7px 1px hsl(0deg 0% 0% / 12%), 1.5px 2.3px 3.3px -0.7px hsl(166deg 100% 2% / 12%), 3.5px 5.3px 7.6px -1.3px hsl(173deg 100% 2% / 12%), 8.2px 12.4px 17.8px -2px hsl(154deg 100% 2% / 10%)',
   maxWidth: '100%',
   letterSpacing: '-0.025em',
-  cursor: 'pointer',
+  // cursor: 'pointer',
   userSelect: 'none',
   transform: 'translate3d(0, 0, 0)',
   overflow: 'hidden',
   transition: 'all 0.2s ease 0s',
   '&:hover': {
     transform: 'translate3D(0,-1px,0) scale(1.02)',
-    boxShadow: 'inset 0 1px 0 $mint4, 0 10px 30px rgba(0 0 0 / 60%)',
+    boxShadow: 'inset 0 1px 0 $purple4, 0 10px 30px rgba(0 0 0 / 60%)',
     zIndex: '$10',
   },
   variants: {
@@ -130,7 +130,7 @@ export default function GridList() {
       <Item type="me">
         <Top>
           <div className={util.roundIcon()}>
-            <Logo />
+            <Logo style={{ borderRadius: 14 }} />
           </div>
         </Top>
         <Bio>
@@ -138,7 +138,7 @@ export default function GridList() {
             {/* <span className="material-symbols-outlined">
               waving_hand
             </span>{"  "} */}
-            A product designer & design-focused engineer with 10+ years of experience in digital design, front-end development and team management.
+            网页设计、app、logo 、3d、全案设计、线下活动、其他设计
           </p>
         </Bio>
       </Item>

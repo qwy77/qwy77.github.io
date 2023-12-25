@@ -1,5 +1,5 @@
 import { createStitches } from '@stitches/react'
-import { mint, mintDark, gray, grayDark, whiteA, blackA } from '@radix-ui/colors'
+import { purple, purpleDark, gray, grayDark, whiteA, blackA } from '@radix-ui/colors'
 
 export const stitches = createStitches({
   theme: {
@@ -14,24 +14,25 @@ export const stitches = createStitches({
       AktivGroteskThin: 'aktiv-grotesk-thin, sans-serif',
     },
     colors: {
-      ...mintDark,
+      ...purpleDark,
       ...grayDark,
       ...whiteA,
       ...blackA,
-      background: '$mint3',
-      contentBackground: '$mint1',
-      modalBackground: '$mint3',
+      // background: '$purple4',
+      background: '#4024a0',
+      contentBackground: '$purple1',
+      modalBackground: '$purple3',
       numberBackground: '$whiteA4',
       CMDKHover: '$whiteA3',
       footerlink: '$whiteA8',
-      link: '$mint12',
-      title: '$mint12',
+      link: '$purple12',
+      title: '$purple12',
       description: 'rgb(231 252 247 / 70%)',
       content: 'rgb(231 252 247 / 60%)',
-      menu: '$mint12',
+      menu: '$purple12',
       highlight: '$whiteA12',
-      highlightText: '$mint10',
-      highlightHover: '$mint3',
+      highlightText: '$purple10',
+      highlightHover: '$purple3',
       highlightActiveBorder: 'rgba(255, 255, 255, 0.04)',
       tabBackground: 'rgba(255, 255, 255, 0.08)',
       tabText: 'rgba(255, 255, 255, 0.372)',
@@ -100,10 +101,10 @@ export const stitches = createStitches({
     borderWidths: {},
     borderStyles: {},
     shadows: {
-      ...mintDark,
+      ...purpleDark,
       ...whiteA,
       lightShadow: '$whiteA11',
-      mint: '$mint11',
+      purple: '$purple11',
     },
     zIndices: {
       1: '100',
@@ -128,11 +129,11 @@ export const stitches = createStitches({
 
 // const lightTheme = theme({
 //   colors: {
-//     ...mint,
+//     ...purple,
 //     ...blackA,
-//     background: '$mint3',
+//     background: '$purple3',
 //     footerlink: '$blackA8',
-//     link: '$mint12',
+//     link: '$purple12',
 //     highlight: '$blackA12',
 //   },
 // })

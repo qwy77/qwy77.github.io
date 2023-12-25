@@ -8,9 +8,9 @@ import Spotify from "@ui/Icons/spotify"
 
 const Title = styled('a', {
   fontSize: '$2',
-  color: '$mint12',
+  color: '$purple12',
   '&:hover': {
-    color: '$mint10',
+    color: '$purple10',
   }
 })
 

@@ -1,5 +1,5 @@
 import Link from "next/link"
-import LogoY from "@ui/Icons/logo_y"
+import Logo from "@ui/Icons/logo"
 import * as VisuallyHidden from '@radix-ui/react-visually-hidden'
 import { styled } from 'stitches.config'
 
@@ -28,7 +28,7 @@ export default function SiteTitle() {
     <>
       <Container>
         <Link href="/" aria-label="YWQ" passHref>
-          <LogoY />
+          <Logo style={{ borderRadius: 6 }} />
           <VisuallyHidden.Root>YWQ</VisuallyHidden.Root>
         </Link>
       </Container>

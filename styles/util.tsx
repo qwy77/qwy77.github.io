@@ -18,7 +18,7 @@ export const page = css({
   margin: '0.5rem',
   borderRadius: '$5',
   padding: '1rem 2rem',
-  backgroundColor: '$mint2',
+  backgroundColor: '#341b74',
   overflow: 'auto',
   transition: 'backgroundColor 0.2s ease',
   boxShadow: '0 1px 8px rgba(0, 0, 0, 0.015)',

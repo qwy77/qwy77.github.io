@@ -13,7 +13,8 @@ export default function About() {
         <PageTile>About</PageTile>
         <div className={util.inset()}>
           <p className={util.description()}>
-            A product designer & design-focused engineer based in Shenzhen, China. With 10+ years of experience in digital design, front-end development and team management. More resume details on <a target="_blank" href="https://read.cv/dingyi" rel="noopener noreferrer">read.cv</a>. I'm looking for a new job, if you are interested, ping me.</p>
+          网页设计、app、logo 、3d、全案设计、线下活动、其他设计
+            </p>
           <div className={util.divider()}></div>
           <div>
             <h2>Career</h2>

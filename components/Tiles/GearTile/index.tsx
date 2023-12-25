@@ -54,7 +54,7 @@ const ExternalLink = styled('div', {
 
 const Item = styled('a', {
   width: '100%',
-  backgroundColor: '$mint12',
+  backgroundColor: '$purple12',
   position: 'relative',
   aspectRatio: 0.88,
   display: 'flex',
